@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<title align="center">portfolio property</title>
+<style>
+ 
+  
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    
+  }
+  nav ul li{
+    display: inline;
+    margin: 20px 30px;
+    list-style-type: style;
+    
+  }
+
+  header {
+    background-color: rgba(10, 46, 139, 0.467);
+    color: rgb(19, 206, 53);
+    padding:10px;
+    text-align:calc()
+    
+    
+  }
+
+  h2 {
+    color:red;
+    font-style: italic;
+
+  }
+
+  
+  p {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: weight 200px;
+    font-style: oblique;
+    background-color: rgb(125, 153, 181);
+  }
+
+  div {
+    color: red;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 700;
+    background-color: #fcf;
+  }
+
+  form {
+    color: rgba(29, 160, 53, 0.814);
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  section {
+    padding: 10px 05px;
+
+  }
+
+  .p {
+    color: burlywood;
+  }
+  .para{
+    background-color: whitesmoke;
+    color:blue;
+  }
+</style>
+<header>
+ <nav>
+    <img src="vasu.image.jpg" width="200" height="70">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#skills">skills</a></li>
+          
+
+    </ul>
+    
+  </nav>
+
+
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    NAME:pavan ganga reddy;<br>
+    ROLLNO:20BJ1A5450;<br>
+    EDUCATION:
+    1.at present I am studying btech final year in stream of aritifical intelligences and data science in st marys group
+    of institutions chebrolu,guntur.
+    I have completed my intermediate in narayan junior college and also completed 10th in Balaji high school
+
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="project">
+    <img src="full.png" alt="Project ">
+    <h3>Project </h3>
+    <p class="p">full stack development</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">NAME:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+    <label for="message">Message:</label> <br>
+    <textarea id="message" name="message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+<section id="skills">
+  <h2>skills</h2>
+  <p class="para">
+    1.python<br>
+    2.java<br>
+    3.full stack developer
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2024 My Portfolio</p>
+</footer>
+</body>
+
+</html>
